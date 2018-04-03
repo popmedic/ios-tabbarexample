@@ -1,29 +1,22 @@
 //
-//  TabBarController.m
+//  NextViewController.m
 //  tabbarexample
 //
 //  Created by Kevin Scardina on 4/3/18.
 //  Copyright © 2018 popmedic. All rights reserved.
 //
 
-#import "TabBarController.h"
-#import "NewViewController.h"
+#import "NextViewController.h"
 
-@interface TabBarController ()
+@interface NextViewController ()
 
 @end
 
-@implementation TabBarController
+@implementation NextViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    UIViewController* naviController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]
-                                           instantiateViewControllerWithIdentifier:@"NavigationController"];
-    naviController.tabBarItem = [[UITabBarItem alloc]
-                                    initWithTabBarSystemItem: UITabBarSystemItemRecents
-                                    tag: 2];
-    self.viewControllers = [self.viewControllers arrayByAddingObject:naviController];
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
