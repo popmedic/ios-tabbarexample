@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UIViewController* naviController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]
+    UINavigationController* naviController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]
                                            instantiateViewControllerWithIdentifier:@"NavigationController"];
     naviController.tabBarItem = [[UITabBarItem alloc]
                                     initWithTabBarSystemItem: UITabBarSystemItemRecents
