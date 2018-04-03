@@ -18,11 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UINavigationController* naviController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil]
+    UINavigationController* naviController = [[UIStoryboard storyboardWithName:@"Other" bundle:nil]
                                            instantiateViewControllerWithIdentifier:@"NavigationController"];
-    naviController.tabBarItem = [[UITabBarItem alloc]
-                                    initWithTabBarSystemItem: UITabBarSystemItemRecents
-                                    tag: 2];
+    naviController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Suggestions" image:[UIImage imageNamed:@"suggestions"] tag:2];
     self.viewControllers = [self.viewControllers arrayByAddingObject:naviController];
 }
 

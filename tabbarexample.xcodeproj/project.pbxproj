@@ -17,6 +17,7 @@
 		0A5AF0B52073C7A5005DC646 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AF0B42073C7A5005DC646 /* TabBarController.m */; };
 		0A5AF0BB2073CEB8005DC646 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AF0BA2073CEB8005DC646 /* NewViewController.m */; };
 		0A5AF0BE2073CEF0005DC646 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AF0BD2073CEF0005DC646 /* NextViewController.m */; };
+		0A5AF0C02073DB9A005DC646 /* Other.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5AF0BF2073DB9A005DC646 /* Other.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		0A5AF0BA2073CEB8005DC646 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
 		0A5AF0BC2073CEF0005DC646 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
 		0A5AF0BD2073CEF0005DC646 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		0A5AF0BF2073DB9A005DC646 /* Other.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Other.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				0A5AF0BA2073CEB8005DC646 /* NewViewController.m */,
 				0A5AF0BC2073CEF0005DC646 /* NextViewController.h */,
 				0A5AF0BD2073CEF0005DC646 /* NextViewController.m */,
+				0A5AF0BF2073DB9A005DC646 /* Other.storyboard */,
 			);
 			path = tabbarexample;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A5AF0AA2073C711005DC646 /* LaunchScreen.storyboard in Resources */,
+				0A5AF0C02073DB9A005DC646 /* Other.storyboard in Resources */,
 				0A5AF0A72073C711005DC646 /* Assets.xcassets in Resources */,
 				0A5AF0A52073C711005DC646 /* Main.storyboard in Resources */,
 			);
